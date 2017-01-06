@@ -10,7 +10,7 @@ server:
 
 # Configuration of alien4cloud's CSAR repository, temporary folder and upload settings.
 directories:
-  alien_init: ${user.home}/init
+  alien_init: /opt/alien4cloud/init
   # alien4cloud main directory (other directories are relative path to this one)
   alien: /opt/alien4cloud-data
   # directory in which alien4cloud stores Cloud Service Archives
